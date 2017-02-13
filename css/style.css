@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.ba-article-25day{
+    height: 100%;
+    box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
+    margin: 100px 130px; /*внешний отступ*/
+    padding-left: 121px; /*внутрений отступ*/
+    padding-right: 138px; /*внутрений отступ*/
+    color: #171717;
+}
+.ba-header{
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    padding-top: 140px;
+    padding-left: 2px;
+}
+.ba-paragraf{
+    font-family: 'Lato', sans-serif;
+    line-height: 34px;
+    color: rgba(23, 23, 23, 0.7);
+    margin: 39px 0;
+}
+.ba-paragraf p{
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 2em;
+}
+.ba-paragraf p:first-child::first-letter{
+    font-family: 'Playfair Display', serif;
+    font-size: 110px;
+    font-weight: 400;
+    color: rgba(23, 23, 23, 1);
+    float: left;
+    line-height: 90px;
+    margin-left: 2px;
+    margin-right: 30px;
+}
+.ba-paragraf blockquote:before{
+    content: "“";
+    font-size: 60px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 40px;
+    margin-left: 4px;
+    margin-right: 15px;
+}
+.ba-paragraf blockquote{
+    font-size: 24px;
+    font-style: italic;
+}
+.ba-discover-submit{
+    box-sizing: border-box;
+    background-color: white;
+    color: #eaa258;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 68px;
+    width: 264px;
+    border: 2px solid #eaa258;
+    margin-bottom: 120px;
+}
+.ba-discover-submit:hover{
+    background-color: #FFB62F;
+    color: #FFFFFF;
+}
+.ba-discover-submit:focus{
+    outline: none;
+}
+.ba-discover-submit:active{
+    background-color: rgba(247, 151, 60, 0.5);
+}
